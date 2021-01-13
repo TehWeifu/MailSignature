@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Signature</title>
+    <meta charset="UTF-8">
+    <style>
+        *{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#card {
+position: relative;
+border: 10px solid;
+border-image: radial-gradient(#ffffff, #FF7F27) 1;
+width: 250px;
+height: 110px;
+margin: 25px;
+}
+
+#pic {
+position: absolute;
+top: 30px;
+left: 20px;
+z-index: 2;
+}
+
+#pic img {
+position: absolute;
+border-radius: 50%;
+width: 50px;
+position:absolute;
+left:0;
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+}
+
+#pic img.top:hover{
+opacity:0;
+}
+
+
+#header {
+position: relative;
+border: 1px solid white;
+background: white;
+height: 50%;
+padding-left: 35%;
+}
+
+#header h2 {
+font-size: 1em;
+font-weight: 500;
+margin-top: 15px;
+color: black;
+}
+
+#header h3 {
+font-size: small;
+font-weight: 200;
+color: #FF7F27;
+}
+
+#footer {
+position: relative;
+height: 50%;
+padding-left: 33%;
+background-color: #FF7F27;
+}
+
+#footer a {
+text-decoration: none;
+color: white;
+}
+
+#footer a:hover div{
+text-decoration: none;
+text-decoration: underline;
+/* border: 3px solid;
+border-image-slice: 1;
+border-image-source: linear-gradient(to left, #FF7F27, #ffffff); */
+}
+
+#footer a:visited {
+text-decoration: none;
+}
+
+.links img{
+width: 15px;
+}
+
+.media {
+position: relative;
+width: 75px;
+height: 20px;
+float: left;
+margin: 3px;
+font-size: 11px;
+}
+
+.media img{
+position: absolute;
+top: 5px;
+left: 10px;
+}
+
+.media label{
+position: absolute;
+top: 5px;
+left: 30px;
+}
+
+.media label:hover {
+cursor: pointer;
+}
+
+#twPic {
+width: 20px;
+top: 5px;
+left: 5px;
+}
+
+.links {
+display: flex;
+flex-wrap: wrap;
+}
+
+    </style>
+</head>
+
+<body>
+    <div id="card">
+        <div id="pic">
+            <img class="bottom" src="https://art.pixilart.com/dee41de7579456d.gif">
+            <img class="top" src="https://media.discordapp.net/attachments/743447083075371084/798606348303466516/hey.jpg">
+        </div>
+
+        <div id="header">
+            <h2>Julián B. Sánchez</h2>
+            <h3>Estudiante de Informática</h3>
+        </div>
+
+        <div id="footer">
+            <div class="links">
+                <a href="https://tehweifu.github.io/">
+                    <div class="media">
+                        <img src="https://cdn.discordapp.com/attachments/743447083075371084/798595382590308392/webLogoW.jpg">
+                        <label class="link">My Web</label>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/TehWeifu">
+                    <div class="media">
+                        <img src="https://media.discordapp.net/attachments/743447083075371084/798595374247837726/ghLogoW.png">
+                        <label class="link">GitHub</label>
+                    </div>
+                </a>
+                <a href="https://twitter.com/julian_bsl">
+                    <div class="media">
+                        <img id="twPic" src="https://cdn.discordapp.com/attachments/743447083075371084/798595381080358952/twLogoW.png">
+                        <label class="link">Twitter</label>
+                    </div>
+                </a>
+                
+                <a href="https://www.instagram.com/julian.bsl/">
+                    <div class="media">
+                        <img src="https://cdn.discordapp.com/attachments/743447083075371084/798595378806521876/IgLogoW.png">
+                        <label class="link">Instagram</label>
+                    </div>
+                </a>   
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

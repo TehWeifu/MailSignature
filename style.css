@@ -8,24 +8,24 @@ font-family: Arial, Helvetica, sans-serif;
 
 #card {
 position: relative;
-border: 20px solid;
+border: 10px solid;
 border-image: radial-gradient(#ffffff, #FF7F27) 1;
-width: 500px;
-height: 220px;
-margin: 50px;
+width: 250px;
+height: 110px;
+margin: 25px;
 }
 
 #pic {
 position: absolute;
-top: 55px;
-left: 40px;
+top: 30px;
+left: 20px;
 z-index: 2;
 }
 
 #pic img {
 position: absolute;
 border-radius: 50%;
-width: 100px;
+width: 50px;
 position:absolute;
 left:0;
 -webkit-transition: opacity 1s ease-in-out;
@@ -48,14 +48,14 @@ padding-left: 35%;
 }
 
 #header h2 {
-font-size: 2em;
+font-size: 1em;
 font-weight: 500;
-margin-top: 30px;
+margin-top: 15px;
 color: black;
 }
 
 #header h3 {
-font-size: large;
+font-size: small;
 font-weight: 200;
 color: #FF7F27;
 }
@@ -75,9 +75,9 @@ color: white;
 #footer a:hover div{
 text-decoration: none;
 text-decoration: underline;
-border: 5px solid;
+/* border: 3px solid;
 border-image-slice: 1;
-border-image-source: linear-gradient(to left, #FF7F27, #ffffff);
+border-image-source: linear-gradient(to left, #FF7F27, #ffffff); */
 }
 
 #footer a:visited {
@@ -85,15 +85,16 @@ text-decoration: none;
 }
 
 .links img{
-width: 30px;
+width: 15px;
 }
 
 .media {
 position: relative;
-width: 150px;
-height: 40px;
+width: 75px;
+height: 20px;
 float: left;
-margin: 5px;
+margin: 3px;
+font-size: 11px;
 }
 
 .media img{
@@ -104,8 +105,8 @@ left: 10px;
 
 .media label{
 position: absolute;
-top: 10px;
-left: 55px;
+top: 5px;
+left: 30px;
 }
 
 .media label:hover {
@@ -113,8 +114,8 @@ cursor: pointer;
 }
 
 #twPic {
-width: 40px;
-top: 10px;
+width: 20px;
+top: 5px;
 left: 5px;
 }
 
